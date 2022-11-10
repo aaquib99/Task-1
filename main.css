@@ -1,0 +1,63 @@
+body {
+  box-sizing: border-box;
+  background-color: rgb(187, 208, 240);
+}
+
+.column {
+  float: left;
+  width: 41%;
+  padding: 10px;
+  height: 750px;
+  background-color: rgb(250, 153, 172);
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading {
+  text-align: center;
+  font-weight: bold;
+}
+
+.editor {
+  display: inline-flex;
+  gap: 10px;
+  font-family: monospace;
+  line-height: 21px;
+  background: rgb(236, 172, 185);
+  border-radius: 2px;
+  padding: 20px 20px;
+}
+
+textarea {
+  font-size: 24px;
+  line-height: 21px;
+  overflow-y: hidden;
+  padding: 0;
+  border: 0;
+  background: rgb(241, 242, 244);
+  color: rgb(25, 102, 218);
+  min-width: 500px;
+  outline: none;
+  resize: none;
+  text-align: center;
+}
+
+.line-numbers {
+  width: 20px;
+  text-align: right;
+}
+
+.line-numbers span {
+  counter-increment: linenumber;
+}
+
+.line-numbers span::before {
+  content: counter(linenumber);
+  display: block;
+  color: rgb(27, 5, 9);
+}
