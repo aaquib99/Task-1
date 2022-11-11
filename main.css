@@ -61,3 +61,8 @@ textarea {
   display: block;
   color: rgb(27, 5, 9);
 }
+
+#Responce {
+  text-align: center;
+  color:rgb(25, 102, 218); ;
+}

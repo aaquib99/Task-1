@@ -1,0 +1,3 @@
+Objective : Create a single page web application- with left and right pane. I can copy paste some text in the right side input window. Each line of the multi-line input text (in Hindi or English) should be assigned a line number. If I click on any line, the corresponding line number should be displayed in the left pane as “You are on line no X. The text should be in font size 24, centered, color Blue. If no text is selected- give appropriate messages. Use HTML, CSS, JavaScript. 
+
+Here main.html is a main file and all its related css is in main.css file and all the javascript related code is written in nyscript.js
